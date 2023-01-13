@@ -1,0 +1,24 @@
+<div class='registration-form-wrapper'>
+  <div class='title'>
+    Register
+  </div>
+  <div class='input-wrapper'>
+    <p>
+      Email
+    </p>
+    <input type="email" name="" value="" [(ngModel)]="email">
+
+  </div>
+  <div class='input-wrapper'>
+    <p>
+      Password
+    </p>
+    <input type="password" name="" value="" [(ngModel)]="password">
+  </div>
+  <div class='button-and-href-wrapper'>
+    <button (click)="registration()" type="button" name="button">Register</button>
+    <a (click)='goToLogin()' class='label'>
+      go to login page
+    </a>
+  </div>
+</div>

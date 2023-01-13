@@ -1,0 +1,15 @@
+<div class='dashboard-wrapper'>
+  <div class="username-wrapper">{{username}}</div>
+  <div class='header-settings-wrapper'>
+    <button (click)="addEvent()" type="button" name="button">Add</button>
+    <button (click)="logout()" type="button" name="button">Logout</button>
+  </div>
+  <div class='calendar-wrapper'>
+    <full-calendar [options]="calendarOptions">
+      <ng-template #eventContent let-arg>
+        <b>{{ arg.event.title }}</b>
+      </ng-template>
+    </full-calendar>
+  </div>
+
+</div>

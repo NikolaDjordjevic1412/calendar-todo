@@ -1,0 +1,22 @@
+<div class='list-form-wrapper'>
+  <div class='title'>
+    Add Todo
+  </div>
+  <div class='description-wrapper'>
+    <p>
+      Description
+    </p>
+    <input type="text" [(ngModel)]="description">
+  </div>
+  <div class='date-add-wrapper'>
+    <p>
+      Description
+    </p>
+    <input placeholder="YYY/MM/DD" type="date" value="2023-01-13" [(ngModel)]="date">
+    <div class='buttons-wrapper'>
+      <button (click)="add()" type="button" name="button">Add</button>
+      <button (click)="back()" type="button" name="button">Back</button>
+    </div>
+
+  </div>
+</div>

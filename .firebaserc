@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "calendar-todo-c686f": {
+      "hosting": {
+        "calendar-todo": [
+          "calendar-todo-c686f"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "calendar-todo-c686f"
+  }
+}
